@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ParallaxViewController">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_albumart" translatesAutoresizingMaskIntoConstraints="NO" id="gwp-pM-MCe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSY-9T-BIa">
+                    <rect key="frame" x="0.0" y="622" width="375" height="45"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIT-bb-nkO">
+                            <rect key="frame" x="10" y="5" width="355" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="4b7-QM-QLl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AIT-bb-nkO" secondAttribute="trailing" constant="10" id="dEz-P6-YOu"/>
+                        <constraint firstItem="AIT-bb-nkO" firstAttribute="leading" secondItem="sSY-9T-BIa" secondAttribute="leading" constant="10" id="hNg-CF-IIA"/>
+                        <constraint firstItem="AIT-bb-nkO" firstAttribute="top" secondItem="sSY-9T-BIa" secondAttribute="top" constant="5" id="sGE-dJ-cfG"/>
+                        <constraint firstAttribute="height" constant="45" id="uEy-lk-ru0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sSY-9T-BIa" secondAttribute="bottom" id="6oO-T2-zbp"/>
+                <constraint firstAttribute="trailing" secondItem="sSY-9T-BIa" secondAttribute="trailing" id="GMj-T3-KUP"/>
+                <constraint firstAttribute="bottom" secondItem="gwp-pM-MCe" secondAttribute="bottom" id="PbI-Qv-Zpo"/>
+                <constraint firstAttribute="trailing" secondItem="gwp-pM-MCe" secondAttribute="trailing" id="Tmw-bk-DMz"/>
+                <constraint firstItem="gwp-pM-MCe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aV3-K1-qnR"/>
+                <constraint firstItem="sSY-9T-BIa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="j9s-bd-Dz0"/>
+                <constraint firstItem="gwp-pM-MCe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rXu-qc-2Gw"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="AIT-bb-nkO" id="mFx-Ug-21D"/>
+                <outlet property="poster" destination="gwp-pM-MCe" id="xnM-t4-OBT"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="default_albumart" width="480" height="480"/>
+    </resources>
+</document>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="proximanova-regular-webfont.ttf">
+            <string>ProximaNova-Regular</string>
+        </array>
+        <array key="proximanova-semibold-webfont.ttf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddToPlaylistViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddToPlaylistViewController">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gL-gc-XrU">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BestsongsPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="dwm-BW-aKx">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                        </imageView>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIY-ow-6Ey">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TCi-eZ-mv4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BestsongsPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="w1l-Nq-LFv">
+                                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="glU-X3-wbl"/>
+                                            <constraint firstAttribute="height" constant="50" id="rId-Uf-sxO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvj-1G-BSY">
+                                        <rect key="frame" x="70" y="20" width="185" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Uaf-q1-KMQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Name Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZ0-9a-D8i">
+                                        <rect key="frame" x="70" y="40" width="185" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="q1F-ay-QhG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdZ-AP-mS8">
+                                        <rect key="frame" x="255" y="0.0" width="65" height="70"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kel-pM-fim">
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="70"/>
+                                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="15"/>
+                                                <state key="normal" title="500" image="like"/>
+                                                <connections>
+                                                    <action selector="likeButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="BYm-V3-v6v"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="Tb6-ve-fGu"/>
+                                            <constraint firstAttribute="bottom" secondItem="kel-pM-fim" secondAttribute="bottom" id="Vpf-6a-jHF"/>
+                                            <constraint firstAttribute="trailing" secondItem="kel-pM-fim" secondAttribute="trailing" id="dZ2-jH-0Vp"/>
+                                            <constraint firstItem="kel-pM-fim" firstAttribute="leading" secondItem="FdZ-AP-mS8" secondAttribute="leading" id="hJQ-Np-Mmd"/>
+                                            <constraint firstItem="kel-pM-fim" firstAttribute="top" secondItem="FdZ-AP-mS8" secondAttribute="top" id="mQA-xL-M7G"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.63263984806629836" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="IZ0-9a-D8i" firstAttribute="top" secondItem="yvj-1G-BSY" secondAttribute="bottom" id="2Gi-Se-8EE"/>
+                                    <constraint firstItem="yvj-1G-BSY" firstAttribute="leading" secondItem="w1l-Nq-LFv" secondAttribute="trailing" constant="10" id="38d-7p-AEV"/>
+                                    <constraint firstAttribute="bottom" secondItem="w1l-Nq-LFv" secondAttribute="bottom" constant="10" id="3CD-by-fOf"/>
+                                    <constraint firstItem="FdZ-AP-mS8" firstAttribute="leading" secondItem="yvj-1G-BSY" secondAttribute="trailing" id="9T7-AP-S0U"/>
+                                    <constraint firstItem="IZ0-9a-D8i" firstAttribute="leading" secondItem="w1l-Nq-LFv" secondAttribute="trailing" constant="10" id="QCE-jj-zkQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="FdZ-AP-mS8" secondAttribute="trailing" id="RCN-5Z-w3c"/>
+                                    <constraint firstItem="FdZ-AP-mS8" firstAttribute="leading" secondItem="IZ0-9a-D8i" secondAttribute="trailing" id="dF6-qh-K1S"/>
+                                    <constraint firstItem="w1l-Nq-LFv" firstAttribute="leading" secondItem="TCi-eZ-mv4" secondAttribute="leading" constant="10" id="qXH-yq-rvN"/>
+                                    <constraint firstAttribute="bottom" secondItem="FdZ-AP-mS8" secondAttribute="bottom" id="qbj-Pe-bc4"/>
+                                    <constraint firstItem="FdZ-AP-mS8" firstAttribute="top" secondItem="TCi-eZ-mv4" secondAttribute="top" id="tfM-f6-IQB"/>
+                                    <constraint firstItem="w1l-Nq-LFv" firstAttribute="top" secondItem="TCi-eZ-mv4" secondAttribute="top" constant="10" id="wGl-U3-S2X"/>
+                                    <constraint firstItem="yvj-1G-BSY" firstAttribute="top" secondItem="TCi-eZ-mv4" secondAttribute="top" constant="20" id="y1b-PQ-3jW"/>
+                                </constraints>
+                            </view>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <blurEffect style="light"/>
+                        </visualEffectView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="dwm-BW-aKx" secondAttribute="trailing" id="8k6-gR-1gL"/>
+                        <constraint firstAttribute="trailing" secondItem="CIY-ow-6Ey" secondAttribute="trailing" id="GY0-Vo-5BJ"/>
+                        <constraint firstAttribute="height" constant="70" id="L6T-F6-XSa"/>
+                        <constraint firstItem="dwm-BW-aKx" firstAttribute="leading" secondItem="6gL-gc-XrU" secondAttribute="leading" id="Odb-K0-FrU"/>
+                        <constraint firstItem="CIY-ow-6Ey" firstAttribute="top" secondItem="6gL-gc-XrU" secondAttribute="top" id="S64-dR-7zp"/>
+                        <constraint firstItem="CIY-ow-6Ey" firstAttribute="leading" secondItem="6gL-gc-XrU" secondAttribute="leading" id="rDe-o1-NUT"/>
+                        <constraint firstAttribute="bottom" secondItem="CIY-ow-6Ey" secondAttribute="bottom" id="tMf-zc-cwL"/>
+                        <constraint firstItem="dwm-BW-aKx" firstAttribute="top" secondItem="6gL-gc-XrU" secondAttribute="top" id="trg-Ah-cEp"/>
+                        <constraint firstAttribute="bottom" secondItem="dwm-BW-aKx" secondAttribute="bottom" id="vBi-W2-GTw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hZ-Mw-qir">
+                    <rect key="frame" x="0.0" y="75" width="320" height="264"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HNc-EP-ljs">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="264"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="264" id="CIB-bG-mC8"/>
+                        <constraint firstItem="HNc-EP-ljs" firstAttribute="leading" secondItem="9hZ-Mw-qir" secondAttribute="leading" id="CTJ-8A-b6P"/>
+                        <constraint firstAttribute="bottom" secondItem="HNc-EP-ljs" secondAttribute="bottom" id="DiL-AG-aXr"/>
+                        <constraint firstAttribute="trailing" secondItem="HNc-EP-ljs" secondAttribute="trailing" id="Mek-rY-4Ec"/>
+                        <constraint firstItem="HNc-EP-ljs" firstAttribute="top" secondItem="9hZ-Mw-qir" secondAttribute="top" id="Rfy-PP-gwE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="1" green="0.25098039220000001" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9hZ-Mw-qir" secondAttribute="trailing" id="7mC-lQ-RCk"/>
+                <constraint firstItem="6gL-gc-XrU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mo7-tf-4Iz"/>
+                <constraint firstItem="9hZ-Mw-qir" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QNr-Ic-ITB"/>
+                <constraint firstItem="9hZ-Mw-qir" firstAttribute="top" secondItem="6gL-gc-XrU" secondAttribute="bottom" constant="5" id="U5s-OC-cB1"/>
+                <constraint firstItem="6gL-gc-XrU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rt3-bj-ZSd"/>
+                <constraint firstAttribute="trailing" secondItem="6gL-gc-XrU" secondAttribute="trailing" id="tr2-D0-eS8"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundPoster" destination="dwm-BW-aKx" id="xOm-KC-fqD"/>
+                <outlet property="likeButton" destination="kel-pM-fim" id="zav-Du-xBx"/>
+                <outlet property="movieName" destination="IZ0-9a-D8i" id="7q3-YB-OZr"/>
+                <outlet property="poster" destination="w1l-Nq-LFv" id="wtS-PK-QSF"/>
+                <outlet property="songName" destination="yvj-1G-BSY" id="xuA-bi-hjb"/>
+                <outlet property="tableView" destination="HNc-EP-ljs" id="FMD-Ax-chM"/>
+            </connections>
+            <point key="canvasLocation" x="50.724637681159422" y="35.491071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BestsongsPlaceholder" width="500" height="500"/>
+        <image name="like" width="25" height="25"/>
+    </resources>
+</document>

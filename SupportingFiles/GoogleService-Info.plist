@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-5377163247466568~6296708013</string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-5377163247466568/5772542955</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>998566315268-8fb42852sb6kjvt5opa4222lid6pdudv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.998566315268-8fb42852sb6kjvt5opa4222lid6pdudv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>998566315268-g1gm8v99e77n3js51l6e5ppk3tekkfko.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvdq0NPLTCfddCimWPW0uZ1jRyqaRu1L4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>998566315268</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>pk.bestsongs.Bestsongs-pk</string>
+	<key>PROJECT_ID</key>
+	<string>bestsongs-a5062</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bestsongs-a5062.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:998566315268:ios:0e649c6e774de07c</string>
+	<key>DATABASE_URL</key>
+	<string>https://bestsongs-a5062.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContentNotAvailableViewController">
+            <connections>
+                <outlet property="bestSongsLogoBottomConstraint" destination="h1t-ou-kCS" id="tCw-Vd-1BD"/>
+                <outlet property="bestSongsLogoLeadingConsraint" destination="IYA-hv-4Cc" id="dCb-4F-AEK"/>
+                <outlet property="bestSongsLogoTopConstraint" destination="4b6-Zw-YHU" id="jDY-vr-Dgr"/>
+                <outlet property="bestSongsLogoTrailingConstraint" destination="dpw-Cy-3Ov" id="Ico-Nf-frb"/>
+                <outlet property="imageView" destination="A2o-jG-j6E" id="eAH-42-KmI"/>
+                <outlet property="lblContentNotAvailableContactDetail" destination="ugv-iD-AKx" id="d67-Pu-aQ6"/>
+                <outlet property="lblOfContentNotAvailableDescription" destination="N9v-LO-E68" id="Er3-UU-Eja"/>
+                <outlet property="leadingConstraintOfContactDetail" destination="DoL-7c-vR5" id="WVw-7P-Yp0"/>
+                <outlet property="leadingConstraintOfDescription" destination="oHR-wx-jLl" id="tu4-Lx-fgv"/>
+                <outlet property="moreInfoBtn" destination="S8d-CV-cNC" id="cpe-hd-CZQ"/>
+                <outlet property="trailingConstraintOfContactDetail" destination="quM-0c-Cwu" id="P1x-IC-O6L"/>
+                <outlet property="trailingConstraintOfDescription" destination="efi-RS-gr0" id="Ikg-0L-61h"/>
+                <outlet property="view" destination="MiC-xT-b1a" id="5cq-oR-PYR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MiC-xT-b1a">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="bestsongs_space" translatesAutoresizingMaskIntoConstraints="NO" id="5vd-1Y-6WB">
+                    <rect key="frame" x="0.0" y="-25" width="414" height="136"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="best_logo" translatesAutoresizingMaskIntoConstraints="NO" id="kau-le-bqT">
+                    <rect key="frame" x="45" y="25" width="324" height="94"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bestsongs_content_not_available" translatesAutoresizingMaskIntoConstraints="NO" id="A2o-jG-j6E">
+                    <rect key="frame" x="0.0" y="109" width="414" height="627"/>
+                    <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For further details contact us at info@bestsongs.pk or Whatsapp us at 0321-2149647" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugv-iD-AKx">
+                    <rect key="frame" x="42" y="528" width="330" height="120"/>
+                    <color key="backgroundColor" red="0.0625" green="0.071099175347222224" blue="0.063395182291666671" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="DxU-lY-hQR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="shadowColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+                <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8d-CV-cNC">
+                    <rect key="frame" x="24" y="666" width="366" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="M7C-Gs-KVc"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="e1H-I2-NOp"/>
+                    </constraints>
+                    <state key="normal" title="click here">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ShowOfflineSongs:" destination="-1" eventType="touchUpInside" id="R2x-45-ga4"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9v-LO-E68">
+                    <rect key="frame" x="42" y="273" width="330" height="210"/>
+                    <color key="backgroundColor" red="0.056098090277777776" green="0.051829632744444423" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="77" id="3pn-vh-1Nh"/>
+                        <constraint firstAttribute="height" constant="210" id="5g4-9c-S58"/>
+                    </constraints>
+                    <string key="text">Dear User, Bestsongs.pk is only available and accessible from Pakistan if you are in Pakistan and you are facing this issue please make sure you are not connected to any VPN and your WiFi provider is also not connected to any VPN - Try using Bestsongs.pk through your Mobile Data Connnection if your WiFi provider is using VPN .</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="shadowColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="A2o-jG-j6E" firstAttribute="leading" secondItem="MiC-xT-b1a" secondAttribute="leading" id="12L-Ih-g0b"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="trailing" secondItem="S8d-CV-cNC" secondAttribute="trailing" constant="24" id="3F0-Ys-cRn"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="bottom" secondItem="S8d-CV-cNC" secondAttribute="bottom" constant="32" id="3lF-Kk-bzX"/>
+                <constraint firstItem="kau-le-bqT" firstAttribute="top" secondItem="Nrs-y6-Scu" secondAttribute="top" constant="5" id="4b6-Zw-YHU"/>
+                <constraint firstItem="A2o-jG-j6E" firstAttribute="bottom" secondItem="Nrs-y6-Scu" secondAttribute="bottom" id="9Z3-fH-nuc"/>
+                <constraint firstItem="ugv-iD-AKx" firstAttribute="leading" secondItem="Nrs-y6-Scu" secondAttribute="leading" constant="42" id="DoL-7c-vR5"/>
+                <constraint firstItem="5vd-1Y-6WB" firstAttribute="top" secondItem="Nrs-y6-Scu" secondAttribute="top" constant="-45" id="E3C-ZA-QCX"/>
+                <constraint firstItem="kau-le-bqT" firstAttribute="leading" secondItem="Nrs-y6-Scu" secondAttribute="leading" constant="45" id="IYA-hv-4Cc"/>
+                <constraint firstItem="5vd-1Y-6WB" firstAttribute="leading" secondItem="Nrs-y6-Scu" secondAttribute="leading" id="NgS-fS-m2X"/>
+                <constraint firstItem="S8d-CV-cNC" firstAttribute="leading" secondItem="Nrs-y6-Scu" secondAttribute="leading" constant="24" id="OOu-7w-ePC"/>
+                <constraint firstItem="S8d-CV-cNC" firstAttribute="top" secondItem="ugv-iD-AKx" secondAttribute="bottom" constant="18" id="W6J-kJ-5PJ"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="trailing" secondItem="kau-le-bqT" secondAttribute="trailing" constant="45" id="dpw-Cy-3Ov"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="trailing" secondItem="N9v-LO-E68" secondAttribute="trailing" constant="42" id="efi-RS-gr0"/>
+                <constraint firstItem="A2o-jG-j6E" firstAttribute="top" secondItem="kau-le-bqT" secondAttribute="bottom" constant="-10" id="h1t-ou-kCS"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="trailing" secondItem="5vd-1Y-6WB" secondAttribute="trailing" id="h3K-53-2rp"/>
+                <constraint firstItem="N9v-LO-E68" firstAttribute="centerX" secondItem="Nrs-y6-Scu" secondAttribute="centerX" id="kdd-eo-6iv"/>
+                <constraint firstItem="N9v-LO-E68" firstAttribute="leading" secondItem="Nrs-y6-Scu" secondAttribute="leading" constant="42" id="oHR-wx-jLl"/>
+                <constraint firstItem="Nrs-y6-Scu" firstAttribute="trailing" secondItem="ugv-iD-AKx" secondAttribute="trailing" constant="42" id="quM-0c-Cwu"/>
+                <constraint firstItem="A2o-jG-j6E" firstAttribute="top" secondItem="5vd-1Y-6WB" secondAttribute="bottom" constant="-2" id="sCg-BP-AQ1"/>
+                <constraint firstItem="N9v-LO-E68" firstAttribute="centerY" secondItem="Nrs-y6-Scu" secondAttribute="centerY" id="uyi-b7-rDu"/>
+                <constraint firstAttribute="trailing" secondItem="A2o-jG-j6E" secondAttribute="trailing" id="w28-hj-IYM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Nrs-y6-Scu"/>
+            <point key="canvasLocation" x="-33.5" y="8"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="best_logo" width="237" height="94"/>
+        <image name="bestsongs_content_not_available" width="312" height="577"/>
+        <image name="bestsongs_space" width="312" height="134"/>
+    </resources>
+</document>

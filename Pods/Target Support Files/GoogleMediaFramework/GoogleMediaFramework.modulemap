@@ -1,0 +1,6 @@
+framework module GoogleMediaFramework {
+  umbrella header "GoogleMediaFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-5377163247466568~6296708013</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Comfortaa-Bold.ttf</string>
+		<string>fontawesome-webfont.ttf</string>
+		<string>proximanova-bold-webfont.ttf</string>
+		<string>proximanova-black-webfont.ttf</string>
+		<string>proximanova-boldit-webfont.ttf</string>
+		<string>proximanova-extrabold-webfont.ttf</string>
+		<string>proximanova-regitalic-webfont.ttf</string>
+		<string>proximanova-regular-webfont.ttf</string>
+		<string>proximanova-regularitalic-webfont.ttf</string>
+		<string>proximanova-semibold-webfont.ttf</string>
+		<string>proximanova-semibolditalic-webfont.ttf</string>
+		<string>proximanova-light-webfont.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+</dict>
+</plist>

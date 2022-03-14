@@ -1,0 +1,6 @@
+framework module ObjectiveCDM {
+  umbrella header "ObjectiveCDM-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,329 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CNPPopupController (0.3.3)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - CRToast (0.0.9)
+  - Fabric (1.10.2)
+  - FBSDKCoreKit (5.2.3):
+    - FBSDKCoreKit/Basics (= 5.2.3)
+    - FBSDKCoreKit/Core (= 5.2.3)
+  - FBSDKCoreKit/Basics (5.2.3)
+  - FBSDKCoreKit/Core (5.2.3):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.2.3):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.2.3):
+    - FBSDKCoreKit (~> 5.0)
+  - FFToast (1.2.0)
+  - FileMD5Hash (2.0.0)
+  - Firebase (5.20.2):
+    - Firebase/Core (= 5.20.2)
+  - Firebase/Auth (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/Core (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.1)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Crash (5.20.2):
+    - Firebase/Core
+    - FirebaseCrash (= 3.1.1)
+  - Firebase/Database (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.1)
+  - Firebase/DynamicLinks (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (= 3.4.3)
+  - Firebase/Messaging (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.5.0)
+  - Firebase/Storage (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.1.1)
+  - FirebaseAnalytics (5.8.1):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseCrash (3.1.1):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - Protobuf (~> 3.5)
+  - FirebaseDatabase (5.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - leveldb-library (~> 1.18)
+  - FirebaseDynamicLinks (3.4.3):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseAnalyticsInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FirebaseMessaging (3.5.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.6)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/Reachability (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Google-Mobile-Ads-SDK (7.43.0):
+    - GoogleAppMeasurement (~> 5.7)
+  - GoogleAds-IMA-iOS-SDK (3.9.2)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMediaFramework (1.3.0):
+    - GoogleAds-IMA-iOS-SDK (~> 3.4)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.8.0)"
+  - GoogleUtilities/Reachability (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.8.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - leveldb-library (1.22.1)
+  - LNPopupController (2.10.29)
+  - Masonry (1.1.0)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - ObjectiveCDM (1.0.7):
+    - FileMD5Hash (~> 2.0.0)
+    - Reachability (~> 3.1.1)
+  - Protobuf (3.19.4)
+  - PureLayout (3.1.9)
+  - Reachability (3.1.1)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SVProgressHUD (2.2.6):
+    - SVProgressHUD/Core (= 2.2.6)
+  - SVProgressHUD/Core (2.2.6)
+  - SWTableViewCell (0.3.7)
+  - Toast (3.1.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+  - "UITextField+Shake (1.2.1)"
+  - VGParallaxHeader (0.0.6):
+    - PureLayout
+  - ZFPlayer (2.1.6):
+    - Masonry
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CNPPopupController
+  - Crashlytics
+  - CRToast (~> 0.0.7)
+  - FBSDKCoreKit (~> 5.2.3)
+  - FBSDKLoginKit (~> 5.2.3)
+  - FBSDKShareKit (~> 5.2.3)
+  - FFToast
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/Messaging
+  - Firebase/Storage
+  - Google-Mobile-Ads-SDK
+  - GoogleAds-IMA-iOS-SDK (~> 3.9.0)
+  - GoogleMediaFramework
+  - GoogleSignIn (~> 4.0)
+  - LNPopupController
+  - Masonry
+  - ObjectiveCDM (~> 1.0.7)
+  - PureLayout (~> 3.1.4)
+  - Reachability
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SWTableViewCell (~> 0.3.7)
+  - Toast (~> 3.0)
+  - TwitterKit
+  - "UITextField+Shake (~> 1.2.1)"
+  - VGParallaxHeader
+  - ZFPlayer (~> 2.1.6)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CNPPopupController
+    - Crashlytics
+    - CRToast
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FFToast
+    - FileMD5Hash
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCrash
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - Google-Mobile-Ads-SDK
+    - GoogleAds-IMA-iOS-SDK
+    - GoogleAppMeasurement
+    - GoogleMediaFramework
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - LNPopupController
+    - Masonry
+    - nanopb
+    - ObjectiveCDM
+    - Protobuf
+    - PureLayout
+    - Reachability
+    - SDWebImage
+    - SWTableViewCell
+    - Toast
+    - TwitterCore
+    - TwitterKit
+    - "UITextField+Shake"
+    - VGParallaxHeader
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: de1d4dba816a19454329031156b8788692bcfa2c
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CNPPopupController: 59b06290762f68beab5fb0bbfa87eb4dcbefb7de
+  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
+  FBSDKCoreKit: 5154c35d9058fd7dfa0445ba19e194c4b172fc32
+  FBSDKLoginKit: dc98b6bf12334f1a42f28d0457fffc9aa3d1eca5
+  FBSDKShareKit: 6f9c622f9a5d051f43f2dab6f753d5198422b89c
+  FFToast: 60e0f3c9fd8fc473205015055ee39cd200404e01
+  FileMD5Hash: 3ed69cc19a21ff4d30ae8833fc104275ad2c7de0
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseCrash: 011365f2c0dfac64315109103ed350bacfcdc03f
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FirebaseDynamicLinks: f7a8717e2c7ea652923882a2d60b0045d6fd99d5
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FirebaseMessaging: 4235f949ce1c4e827aeb19705ba5c53f9b85aa10
+  FirebaseStorage: 6162ef4322502b818d9de0ec552f5226d283de43
+  Google-Mobile-Ads-SDK: e911f5544fc6488f8372a183627a802c8bdb5e36
+  GoogleAds-IMA-iOS-SDK: 005e7670c266ee28ad72d730309f396ad7f440a0
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleMediaFramework: b754be6c3460a1c54e17caf88544f6462c9f2270
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  LNPopupController: 7f64391076386a5a89d36b243352a9dd7510a2e8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  ObjectiveCDM: e70c6002b4a15c19fe750d9d174ed7ba20ece180
+  Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
+  VGParallaxHeader: 1213aba58c9b0aea84f9e81ad526fde57aa4fe48
+  ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
+
+PODFILE CHECKSUM: 1efa6935a4ab4daa0d7f466aa18480ce7c8624da
+
+COCOAPODS: 1.11.2
